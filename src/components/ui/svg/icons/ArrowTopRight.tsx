@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PlusSmallIcon: React.FC<React.SVGAttributes<HTMLOrSVGElement>> = (
+const ArrowTopRight: React.FC<React.SVGAttributes<HTMLOrSVGElement>> = (
   props
 ) => {
   const { ...rest } = props;
@@ -15,12 +15,13 @@ const PlusSmallIcon: React.FC<React.SVGAttributes<HTMLOrSVGElement>> = (
     >
       <path
         fill='currentColor'
+        fillOpacity='0.882'
         fillRule='evenodd'
-        d='M10 5c.46 0 .833.373.833.833v3.334h3.334a.833.833 0 010 1.666h-3.334v3.334a.833.833 0 01-1.666 0v-3.334H5.833a.833.833 0 010-1.666h3.334V5.833c0-.46.373-.833.833-.833z'
+        d='M6.667 5c0-.46.373-.833.833-.833H15c.46 0 .833.373.833.833v7.5a.833.833 0 01-1.666 0V7.012l-8.161 8.16a.833.833 0 11-1.179-1.178l8.161-8.16H7.5A.833.833 0 016.667 5z'
         clipRule='evenodd'
       ></path>
     </svg>
   );
 };
 
-export default PlusSmallIcon;
+export default ArrowTopRight;

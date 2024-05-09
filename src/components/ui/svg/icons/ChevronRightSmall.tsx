@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ArrowTopCircleIcon: React.FC<React.SVGAttributes<HTMLOrSVGElement>> = (
+const ChevronRightSmall: React.FC<React.SVGAttributes<HTMLOrSVGElement>> = (
   props
 ) => {
   const { ...rest } = props;
@@ -16,11 +16,11 @@ const ArrowTopCircleIcon: React.FC<React.SVGAttributes<HTMLOrSVGElement>> = (
       <path
         fill='currentColor'
         fillRule='evenodd'
-        d='M18.333 10a8.333 8.333 0 10-16.666 0 8.333 8.333 0 0016.666 0zM6.911 8.577a.833.833 0 001.178 1.179l1.078-1.078v4.655a.833.833 0 001.666 0V8.678l1.078 1.078a.833.833 0 001.178-1.179l-2.5-2.5a.833.833 0 00-1.178 0l-2.5 2.5z'
+        d='M7.744 6.077a.833.833 0 011.179 0l3.333 3.334a.833.833 0 010 1.178l-3.333 3.334a.833.833 0 01-1.179-1.179L10.488 10 7.744 7.256a.833.833 0 010-1.179z'
         clipRule='evenodd'
       ></path>
     </svg>
   );
 };
 
-export default ArrowTopCircleIcon;
+export default ChevronRightSmall;
