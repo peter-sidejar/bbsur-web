@@ -113,6 +113,18 @@ body {
     --danger-9: 229 72 77;
     --danger-alpha-4: #f8596d4a;
   }
+  .bold-13 {
+    @apply font-bold text-[64px] leading-[64px] font-display;
+  }
+  .bold-11 {
+    @apply font-bold text-[48px] leading-[56px] font-display;
+  }
+  .bold-9 {
+    @apply font-bold text-[36px] leading-[42px] font-display;
+  }
+  .bold-4 {
+    @apply font-bold text-[16px] leading-[24px];
+  }
   .semibold-2 {
     @apply font-semibold text-[12px] leading-[16px];
   }

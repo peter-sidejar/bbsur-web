@@ -9,6 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        'accent-9': '#2E62FF',
         'neutral-12': 'rgb(var(--neutral-12) / <alpha-value>)',
         'neutral-11': 'var(--neutral-11)',
         'panel-1': 'var(--panel-1)',
