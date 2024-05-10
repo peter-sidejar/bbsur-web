@@ -16,6 +16,7 @@ const config: Config = {
         'panel-3': 'var(--panel-3)',
         'panel-4': 'var(--panel-4)',
         'background-1': 'var(--background-1)',
+        'background-3': 'var(--background-3)',
         'neutral-alpha-5': 'var(--neutral-alpha-5)',
         'neutral-5': 'var(--neutral-5)',
         'neutral-3': 'var(--neutral-3)',

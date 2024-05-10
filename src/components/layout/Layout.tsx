@@ -7,9 +7,12 @@ const Layout: React.FC<{ children: React.ReactNode }> = (props) => {
   const { children } = props;
   return (
     <div>
-      <div>
-        <Header />
-        <main>{children}</main>
+      <div className='flex flex-col min-h-screen'>
+        <div className='grow'>
+          <Header />
+          <main>{children}</main>
+        </div>
+
         <Footer />
       </div>
     </div>

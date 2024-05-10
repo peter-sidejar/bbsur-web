@@ -15,7 +15,7 @@ export interface ButtonLinkProps
 }
 
 const sizeClasses: Record<number, string> = {
-  2: 'semibold-3 ',
+  2: 'medium-3 ',
   3: 'semibold-4',
   4: 'semibold-5',
 };
