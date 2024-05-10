@@ -30,6 +30,7 @@ const iconSizeClasses: Record<number, string> = {
 const variantClasses: Record<string, string> = {
   solid: 'solid-btn',
   alternative: 'alternative-btn',
+  outlined: 'outline-btn',
 };
 
 const Button: React.FC<ButtonProps> = (props) => {

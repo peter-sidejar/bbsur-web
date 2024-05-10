@@ -167,6 +167,9 @@ body {
   .medium-6 {
     @apply font-medium text-[20px] leading-[28px] tracking-[-0.1px];
   }
+  .medium-7 {
+    @apply font-medium text-[24px] leading-[36px] tracking-[-0.1px];
+  }
   .regular-5 {
     @apply font-normal text-[18px] leading-[28px];
   }
@@ -220,7 +223,7 @@ body {
 
 @layer components {
   .size-2-btn {
-    @apply flex items-center justify-center h-8  px-3 semibold-2  rounded-[999px] gap-[4px];
+    @apply flex items-center justify-center h-8  px-3 semibold-2  rounded-[6px] gap-[4px];
   }
   .size-3-btn {
     @apply flex items-center justify-center h-10  px-3 semibold-3  rounded-[999px] gap-[4px];
@@ -240,6 +243,9 @@ body {
     box-shadow: 0px 1px 2px 0px
         var(--support-alternative-shadow-light, rgba(0, 0, 0, 0.06)),
       0px 0px 0px 1px var(--support-alternative-shadow-dark, rgba(0, 0, 0, 0));
+  }
+  .outline-btn {
+    @apply text-neutral-12 border border-neutral-alpha-6 hover:border-neutral-alpha-3 bg-transparent disabled:bg-panel-3 hover:bg-neutral-alpha-3;
   }
 
   .size-2-badge {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ArrowRightCircle: React.FC<React.SVGAttributes<HTMLOrSVGElement>> = (
+const SmallCloseIcon: React.FC<React.SVGAttributes<HTMLOrSVGElement>> = (
   props
 ) => {
   const { ...rest } = props;
@@ -23,4 +23,4 @@ const ArrowRightCircle: React.FC<React.SVGAttributes<HTMLOrSVGElement>> = (
   );
 };
 
-export default ArrowRightCircle;
+export default SmallCloseIcon;
