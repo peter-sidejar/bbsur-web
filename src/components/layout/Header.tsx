@@ -14,8 +14,8 @@ const Header = () => {
     setOpenMobileMenu(!openMobileMenu);
   };
   return (
-    <div>
-      <nav className='flex items-center justify-between relative side-wrapper h-[54px]'>
+    <div className='relative z-[10] '>
+      <nav className='dark flex items-center justify-between relative side-wrapper h-[54px]'>
         <div className='absolute left-0 right-0 mx-auto w-fit hidden md:block'>
           <div className='flex gap-8'>
             <NextLink href='#'>
@@ -30,7 +30,7 @@ const Header = () => {
             </NextLink>
           </div>
         </div>
-        <NextLink href='/' className='relative'>
+        <NextLink href='/' className='relative text-neutral-12'>
           <LogoSvg className='w-[80px] h-[18px]' />
         </NextLink>
 
@@ -39,7 +39,7 @@ const Header = () => {
             Contact us
           </Button>
           <button
-            className='h-10 w-10 flex items-center justify-center md:hidden rounded-[8px]'
+            className='h-10 w-10 flex items-center justify-center md:hidden rounded-[8px] text-neutral-12'
             onClick={toggleMobileMenu}
           >
             {openMobileMenu ? (

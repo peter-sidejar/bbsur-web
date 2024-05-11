@@ -60,7 +60,7 @@ body {
   }
 
   .dark {
-    --neutral-12: 238 240 241;
+    --neutral-12: 255 255 255;
     --neutral-11: #a8acb3;
     --panel-1: #131315;
     --panel-3: #16161a;
@@ -119,6 +119,9 @@ body {
   }
   .bold-11 {
     @apply font-bold text-[48px] leading-[56px] font-display;
+  }
+  .bold-10 {
+    @apply font-bold text-[40px] leading-[48px] font-display;
   }
   .bold-9 {
     @apply font-bold text-[36px] leading-[42px] font-display;
@@ -220,6 +223,16 @@ body {
   .segment-shadow {
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
   }
+  .white-text-gradient {
+    background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.82)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 @layer components {
@@ -227,7 +240,7 @@ body {
     @apply flex items-center justify-center h-8  px-3 semibold-2  rounded-[6px] gap-[4px];
   }
   .size-3-btn {
-    @apply flex items-center justify-center h-10  px-3 semibold-3  rounded-[999px] gap-[4px];
+    @apply flex items-center justify-center h-10  px-3 semibold-3  rounded-[8px] gap-[4px];
   }
   .size-4-btn {
     @apply flex items-center justify-center h-12  px-4 semibold-3 rounded-[999px] gap-[8px];
