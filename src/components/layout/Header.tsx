@@ -6,16 +6,23 @@ import ButtonLink from '../ui/ButtonLink';
 import AlignmentJustifyIcon from '../ui/svg/icons/AlignmentJustifyIcon';
 import SmallCloseIcon from '../ui/svg/icons/SmallCloseIcon';
 import { motion, AnimatePresence } from 'framer-motion';
+import clsx from 'classnames';
+import { useLayoutContext } from './LayoutContextProvider';
 
 const Header = () => {
-  const [openMobileMenu, setOpenMobileMenu] = useState(false);
+  const { mobileMenuOpened, setMobileMenuOpened } = useLayoutContext();
 
   const toggleMobileMenu = () => {
-    setOpenMobileMenu(!openMobileMenu);
+    setMobileMenuOpened(!mobileMenuOpened);
   };
   return (
     <div className='relative z-[10] '>
-      <nav className='dark flex items-center justify-between relative side-wrapper h-[54px]'>
+      <nav
+        className={clsx(
+          'flex items-center justify-between relative side-wrapper h-[54px]',
+          !mobileMenuOpened ? 'dark' : ''
+        )}
+      >
         <div className='absolute left-0 right-0 mx-auto w-fit hidden md:block'>
           <div className='flex gap-8'>
             <NextLink href='#'>
@@ -42,7 +49,7 @@ const Header = () => {
             className='h-10 w-10 flex items-center justify-center md:hidden rounded-[8px] text-neutral-12'
             onClick={toggleMobileMenu}
           >
-            {openMobileMenu ? (
+            {mobileMenuOpened ? (
               <SmallCloseIcon className='w-5 h-5' />
             ) : (
               <AlignmentJustifyIcon className='w-5 h-5' />
@@ -52,7 +59,7 @@ const Header = () => {
       </nav>
 
       <AnimatePresence>
-        {openMobileMenu && (
+        {mobileMenuOpened && (
           <motion.div
             className='fixed top-[54px] left-0 right-0 bottom-0 z-[100] bg-panel-1'
             initial={{ x: '100%' }}

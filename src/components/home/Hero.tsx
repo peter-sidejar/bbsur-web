@@ -2,6 +2,8 @@ import React from 'react';
 import Button from '../ui/Button';
 import Image from 'next/image';
 import StarCanvas from './StarCanvas';
+import { useLayoutContext } from '../layout/LayoutContextProvider';
+import clsx from 'classnames';
 
 const partners = [
   {
@@ -43,11 +45,20 @@ const partners = [
 ];
 
 const Hero = () => {
+  const { mobileMenuOpened } = useLayoutContext();
   return (
-    <div className='dark relative overflow-x-clip'>
-      <div className='absolute inset-0 top-[-54px] bg-accent-9'></div>
+    <div className={'dark relative overflow-x-clip'}>
+      <div
+        className={clsx(
+          'absolute inset-0 top-[-54px] transition duration-300 ease-in-out ',
+          mobileMenuOpened ? 'bg-white' : 'bg-accent-9'
+        )}
+      ></div>
       <StarCanvas
-        className='absolute inset-0 top-[-54px] w-full h-full'
+        className={clsx(
+          'absolute inset-0 top-[-54px] w-full h-full',
+          mobileMenuOpened ? 'hidden' : ''
+        )}
         numStars={50}
         minSize={1}
         maxSize={2}

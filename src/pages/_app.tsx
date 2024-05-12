@@ -1,6 +1,7 @@
 import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
 import localFont from 'next/font/local';
+import { LayoutContextProvider } from '@/components/layout/LayoutContextProvider';
 
 const interDisplay = localFont({
   src: [
@@ -16,8 +17,10 @@ const interDisplay = localFont({
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={`${interDisplay.variable}`}>
-      <Component {...pageProps} />
-    </div>
+    <LayoutContextProvider>
+      <div className={`${interDisplay.variable}`}>
+        <Component {...pageProps} />
+      </div>
+    </LayoutContextProvider>
   );
 }
