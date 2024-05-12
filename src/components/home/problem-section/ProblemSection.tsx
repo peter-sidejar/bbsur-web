@@ -4,7 +4,7 @@ import Map from './Map';
 
 const ProblemSection = () => {
   return (
-    <section className='side-wrapper mt-[80px] md:mt-[124px] '>
+    <section className='side-wrapper py-[80px] md:py-[124px] '>
       <Description />
       <Map />
     </section>
