@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         'accent-3': 'rgba(235, 242, 255, 1)',
         'accent-9': '#2E62FF',
+        'overlay-dark-12': '#0B0C0EE0',
         'neutral-12': 'rgb(var(--neutral-12) / <alpha-value>)',
         'neutral-11': 'var(--neutral-11)',
         'panel-1': 'var(--panel-1)',

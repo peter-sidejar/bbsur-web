@@ -4,7 +4,7 @@ const Metrics = () => {
   return (
     <div className='mobile-full-side-wrapper'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5 text-neutral-12 mt-[56px]'>
-        <div className='bg-panel-1 rounded-[12px] p-5 flex flex-col h-[384px] gap-10 justify-between'>
+        <div className='bg-panel-1 rounded-[12px] p-5 flex flex-col h-[384px] gap-10 justify-between border border-neutral-alpha-4 card-shadow'>
           <h6 className='text-center bold-4 shrink-0'>
             The Economic Cost of the Opioid Epidemic
           </h6>
@@ -33,7 +33,7 @@ const Metrics = () => {
             </div>
           </div>
         </div>
-        <div className='bg-panel-1 rounded-[12px] p-5 flex flex-col h-[384px] gap-10 justify-between'>
+        <div className='bg-panel-1 rounded-[12px] p-5 flex flex-col h-[384px] gap-10 justify-between border border-neutral-alpha-4 card-shadow'>
           <h6 className='text-center bold-4 shrink-0'>
             CDC Reports Overdose Deaths Increased
           </h6>

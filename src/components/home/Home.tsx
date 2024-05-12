@@ -3,6 +3,7 @@ import Hero from './Hero';
 import Coalition from './Coalition';
 import ProblemSection from './problem-section/ProblemSection';
 import EconomicMetrics from './economic-metrics/EconomicMetrics';
+import Press from './press/Press';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Coalition />
       <ProblemSection />
       <EconomicMetrics />
+      <Press />
     </div>
   );
 };
