@@ -63,7 +63,7 @@ const Coalition = () => {
         {partners.map((partner, index) => (
           <div
             key={'partner-card' + index}
-            className='max-h-[501px] w-full aspect-[0.86] md:aspect-[1.34] lg:aspect-[0.86] bg-panel-1 flex flex-col p-5 rounded-[12px] card-shadow gap-7 justify-between'
+            className='max-h-[501px] w-full aspect-[0.86] md:aspect-[1.34] lg:aspect-[0.86] bg-panel-1 flex flex-col p-5 rounded-[12px] card-shadow border border-neutral-alpha-4 gap-7 justify-between'
           >
             <div className='flex flex-col gap-7'>
               <Image
