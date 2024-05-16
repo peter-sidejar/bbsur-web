@@ -12,12 +12,12 @@ const Footer = () => {
           <div className='py-9 flex items-center justify-between relative '>
             <div className='absolute left-0 right-0 mx-auto w-fit hidden md:block'>
               <div className='flex gap-8'>
-                <NextLink href='#'>
+                <NextLink href='#the-coalition'>
                   <ButtonLink noUnderline size={2}>
                     The Coalition
                   </ButtonLink>
                 </NextLink>
-                <NextLink href='#'>
+                <NextLink href='#news'>
                   <ButtonLink noUnderline size={2}>
                     News
                   </ButtonLink>
@@ -35,12 +35,12 @@ const Footer = () => {
             </div>
           </div>
           <div className='flex flex-col gap-5 pb-9 md:hidden'>
-            <NextLink href='#'>
+            <NextLink href='#the-coalition'>
               <ButtonLink noUnderline size={2}>
                 The Coalition
               </ButtonLink>
             </NextLink>
-            <NextLink href='#'>
+            <NextLink href='#news'>
               <ButtonLink noUnderline size={2}>
                 News
               </ButtonLink>

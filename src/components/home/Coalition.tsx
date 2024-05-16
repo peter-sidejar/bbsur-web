@@ -57,7 +57,10 @@ const partners = [
 
 const Coalition = () => {
   return (
-    <section className='side-wrapper mt-[80px] md:mt-[124px] text-neutral-12'>
+    <section
+      className='side-wrapper pt-[80px] md:pt-[124px] text-neutral-12'
+      id='the-coalition'
+    >
       <h2 className='bold-9 md:text-center'>The Coalition</h2>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-[56px] items-stretch'>
         {partners.map((partner, index) => (

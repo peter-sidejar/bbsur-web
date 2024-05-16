@@ -24,7 +24,10 @@ const presses = [
 
 const Press = () => {
   return (
-    <section className='side-wrapper py-[80px] md:py-[124px] text-neutral-12'>
+    <section
+      className='side-wrapper py-[80px] md:py-[124px] text-neutral-12'
+      id='news'
+    >
       <h2 className='bold-9 md:text-center'>Mentions in Press</h2>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-[56px]'>
         {presses.map((press, index) => (
