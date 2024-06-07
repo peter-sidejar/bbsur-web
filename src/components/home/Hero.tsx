@@ -51,7 +51,7 @@ const Hero = () => {
       <div
         className={clsx(
           'absolute inset-0 top-[-54px] transition duration-300 ease-in-out ',
-          mobileMenuOpened ? 'bg-white' : 'bg-accent-9'
+          mobileMenuOpened ? 'bg-white' : 'bg-off-black'
         )}
       ></div>
       <StarCanvas

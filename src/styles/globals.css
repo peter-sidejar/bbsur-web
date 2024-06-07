@@ -34,8 +34,8 @@ body.no-scroll {
   }
 
   :root {
-    --neutral-12: 31 35 39;
-    --neutral-11: #60646c;
+    --neutral-12: 63 62 62;
+    --neutral-11: #3f3e3e;
     --panel-1: #ffffff;
     --panel-3: #f9f9fb;
     --panel-4: #f2f2f5;
@@ -244,6 +244,7 @@ body.no-scroll {
   .card-shadow {
     box-shadow: 0px 0.3px 0.3px 0.01px rgba(0, 0, 0, 0.16);
   }
+
   .hidden-scroll {
     -ms-overflow-style: none; /* Internet Explorer 10+ */
     scrollbar-width: none; /* Firefox */
