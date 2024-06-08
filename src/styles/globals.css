@@ -130,6 +130,9 @@ body.no-scroll {
   .bold-9 {
     @apply font-bold text-[36px] leading-[42px] font-display;
   }
+  .bold-6 {
+    @apply font-bold text-[20px] leading-[28px] tracking-[-0.1px];
+  }
   .bold-4 {
     @apply font-bold text-[16px] leading-[24px];
   }
@@ -203,6 +206,10 @@ body.no-scroll {
 
   .side-wrapper {
     @apply px-5 sm:px-8 xl:px-0 max-w-[1040px] mx-auto;
+  }
+
+  .article-side-wrapper {
+    @apply px-5 sm:px-8 xl:px-0 max-w-[684px] mx-auto;
   }
 
   .input-focus-default {

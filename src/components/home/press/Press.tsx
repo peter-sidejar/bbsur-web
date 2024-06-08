@@ -6,19 +6,19 @@ const presses = [
     title: 'Title of the The Economic Cost of the Opioid Epidemic',
     img: '/press/press-1.png',
     description: `The staggering cost of the opioid epidemic has imposed a heavy burden on the nation's economy, straining resources allocated for healthcare, law enforcement, and social services. `,
-    link: 'https://example.com',
+    link: '/press/recovery-platform',
   },
   {
     title: 'Title of the The Economic Cost of the Opioid Epidemic',
     img: '/press/press-2.png',
     description: `The staggering cost of the opioid epidemic has imposed a heavy burden on the nation's economy, straining resources allocated for healthcare, law enforcement, and social services. `,
-    link: 'https://example.com',
+    link: '/press/recovery-platform',
   },
   {
     title: 'Title of the The Economic Cost of the Opioid Epidemic',
     img: '/press/press-3.png',
     description: `The staggering cost of the opioid epidemic has imposed a heavy burden on the nation's economy, straining resources allocated for healthcare, law enforcement, and social services. `,
-    link: 'https://example.com',
+    link: '/press/recovery-platform',
   },
 ];
 

@@ -24,7 +24,7 @@ const PressCard: React.FC<{
       </div>
       <div className='absolute top-[223px] h-[198px] inset-x-[-316px] bg-overlay-dark-12 blur-[18px]'></div>
       <div className='dark relative cursor-pointer group'>
-        <NextLink href={link} target='_blank'>
+        <NextLink href={link}>
           <h6 className='bold-4 line-clamp-2 overflow-ellipsis text-neutral-12 group-hover:underline'>
             {title}
           </h6>

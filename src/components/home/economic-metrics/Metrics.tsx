@@ -1,12 +1,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { transcode } from 'buffer';
 
 const container = {
-  hidden: { opacity: 1 },
+  hidden: { opacity: 0 },
   visible: {
     opacity: 1,
     transition: {
-      delayChildren: 0.3,
       staggerChildren: 0.2,
     },
   },
@@ -27,18 +27,18 @@ const Metrics = () => {
   return (
     <div className='mobile-full-side-wrapper'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5 text-neutral-12 mt-[56px]'>
-        <div className='bg-panel-1 rounded-[12px] p-5 flex flex-col h-[384px] gap-10 justify-between border border-neutral-alpha-4 card-shadow'>
+        <motion.div
+          variants={container}
+          initial='hidden'
+          whileInView={'visible'}
+          viewport={{ once: true }}
+          className='bg-panel-1 rounded-[12px] p-5 flex flex-col h-[384px] gap-10 justify-between border border-neutral-alpha-4 card-shadow'
+        >
           <h6 className='text-center bold-4 shrink-0'>
             The Economic Cost of the Opioid Epidemic
           </h6>
 
-          <motion.div
-            className='grid grid-cols-3 gap-7 md:gap-5 xl:gap-9 grow items-end'
-            variants={container}
-            initial='hidden'
-            whileInView={'visible'}
-            viewport={{ once: true }}
-          >
+          <motion.div className='grid grid-cols-3 gap-7 md:gap-5 xl:gap-9 grow items-end'>
             <motion.div
               className='h-[88.9%] flex flex-col gap-4'
               variants={item('88.9%')}
@@ -70,18 +70,18 @@ const Metrics = () => {
               <span className='text-center medium-3 shrink-0'>2020</span>
             </motion.div>
           </motion.div>
-        </div>
-        <div className='bg-panel-1 rounded-[12px] p-5 flex flex-col h-[384px] gap-10 justify-between border border-neutral-alpha-4 card-shadow'>
+        </motion.div>
+        <motion.div
+          variants={container}
+          initial='hidden'
+          whileInView={'visible'}
+          viewport={{ once: true }}
+          className='bg-panel-1 rounded-[12px] p-5 flex flex-col h-[384px] gap-10 justify-between border border-neutral-alpha-4 card-shadow'
+        >
           <h6 className='text-center bold-4 shrink-0'>
             CDC Reports Overdose Deaths Increased
           </h6>
-          <motion.div
-            className='grid grid-cols-4 gap-5 xl:gap-6 grow items-end'
-            variants={container}
-            initial='hidden'
-            whileInView={'visible'}
-            viewport={{ once: true }}
-          >
+          <motion.div className='grid grid-cols-4 gap-5 xl:gap-6 grow items-end'>
             <motion.div
               className='h-[58.6%] flex flex-col gap-4'
               variants={item('58.6%')}
@@ -123,7 +123,7 @@ const Metrics = () => {
               <span className='text-center medium-3 shrink-0'>2023</span>
             </motion.div>
           </motion.div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

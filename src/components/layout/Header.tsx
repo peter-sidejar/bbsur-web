@@ -8,9 +8,12 @@ import SmallCloseIcon from '../ui/svg/icons/SmallCloseIcon';
 import { motion, AnimatePresence } from 'framer-motion';
 import clsx from 'classnames';
 import { useLayoutContext } from './LayoutContextProvider';
+import { useRouter } from 'next/router';
 
 const Header = () => {
   const { mobileMenuOpened, setMobileMenuOpened } = useLayoutContext();
+  const router = useRouter();
+  const isHomePage = router.pathname === '/';
 
   const toggleMobileMenu = () => {
     setMobileMenuOpened(!mobileMenuOpened);
@@ -20,7 +23,7 @@ const Header = () => {
       <nav
         className={clsx(
           'flex items-center justify-between relative side-wrapper h-[54px]',
-          !mobileMenuOpened ? 'dark' : ''
+          !mobileMenuOpened && isHomePage ? 'dark' : ''
         )}
       >
         <div className='absolute left-0 right-0 mx-auto w-fit hidden md:block'>
