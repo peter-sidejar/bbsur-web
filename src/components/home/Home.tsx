@@ -10,10 +10,10 @@ const Home = () => {
   return (
     <div className='text-neutral-12'>
       <Hero />
-      <Coalition />
+      <BarriersTreatment />
       <ProblemSection />
       <EconomicMetrics />
-      <BarriersTreatment />
+      <Coalition />
       <Press />
     </div>
   );

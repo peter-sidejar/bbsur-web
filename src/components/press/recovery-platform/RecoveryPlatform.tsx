@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const RecoveryPlatform = () => {
   return (
@@ -47,8 +48,10 @@ const RecoveryPlatform = () => {
           <div className='mt-2 flex flex-col regular-4'>
             <span>Pete Gratale</span>
             <span>Coaltiion Development</span>
-            <span>pgratale@nomorebarriers.org</span>
-            <span>(910) 409 - 3339</span>
+            <Link href='mailto:pgratale@nomorebarriers.org'>
+              pgratale@nomorebarriers.org
+            </Link>
+            <Link href='tel:(910) 409 - 3339'>(910) 409 - 3339</Link>
           </div>
         </div>
 
@@ -57,8 +60,10 @@ const RecoveryPlatform = () => {
           <div className='mt-2 flex flex-col regular-4'>
             <span>Zach Herrmann</span>
             <span>Director of Marketing</span>
-            <span>zherrmann@nomorebarriers.org</span>
-            <span>(910) 200 - 8447</span>
+            <Link href='mailto:zherrmann@nomorebarriers.org'>
+              zherrmann@nomorebarriers.org
+            </Link>
+            <Link href='tel:(910) 200 - 8447'>(910) 200 - 8447</Link>
           </div>
         </div>
       </div>
