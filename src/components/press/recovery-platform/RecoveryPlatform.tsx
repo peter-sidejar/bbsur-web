@@ -41,7 +41,7 @@ const RecoveryPlatform = () => {
         </p>
       </div>
 
-      <div className='mt-[64px] grid grid-cols-2 gap-x-[129px]'>
+      <div className='mt-[64px] grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-[129px]'>
         <div>
           <span className='semibold-4'>Membership Contact</span>
           <div className='mt-2 flex flex-col regular-4'>
