@@ -3,28 +3,28 @@ import TreatmentCard from './TreatmentCard';
 
 const barriersTreatmentData = [
   {
-    title: 'STIGMA',
+    title: 'Stigma',
     description:
       'Negative societal attitudes and discrimination toward individuals with substance use disorders.',
   },
   {
-    title: 'ACCESS',
+    title: 'Access',
     description: 'Increase access by eliminating obstacles',
   },
   {
-    title: 'FINANCIAL',
+    title: 'Financial',
     description: 'Remove financial hurdles to treatment',
   },
   {
-    title: 'SOCIAL DETERMINANTS OF HEALTH (SDOH)',
+    title: 'Social Determinants of Health (SDOH)',
     description: 'Assist with factors that impact health',
   },
   {
-    title: 'TRAUMA',
+    title: 'Trauma',
     description: 'Past traumatic experiences affecting recovery',
   },
   {
-    title: 'JUSTICE',
+    title: 'Justice',
     description: 'Legal system involvement hindering recovery',
   },
 ];
@@ -36,7 +36,7 @@ const BarriersTreatment = () => {
       id='news'
     >
       <h2 className='bold-9 md:text-center'>Barriers to Treatment</h2>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-[56px]'>
+      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mt-[56px]'>
         {barriersTreatmentData.map((barrier, index) => (
           <TreatmentCard
             key={index}
