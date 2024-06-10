@@ -10,6 +10,7 @@ const RecoveryPlatform = () => {
         alt='breaking barriers logo'
         width={295}
         height={67}
+        priority={true}
       />
       <div className='mt-6 text-neutral-12'>
         <span className='semibold-4 uppercase text-accent-9'>
