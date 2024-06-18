@@ -7,6 +7,7 @@ import BarriersTreatment from './barriers-treatment/BarriersTreatment';
 import TreatmentPrograms from './treatment-programs/TreatmentPrograms';
 import BBUSRAsserts from './asserts/BBUSRAsserts';
 import VbotAddresses from './vbot-addresses/VbotAddresses';
+import ContactUs from './Contactus';
 
 const Home = () => {
   return (

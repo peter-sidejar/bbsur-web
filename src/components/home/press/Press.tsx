@@ -26,7 +26,7 @@ const presses = [
 const Press = () => {
   return (
     <section
-      className='side-wrapper py-[80px] md:py-[124px] text-neutral-12'
+      className='side-wrapper pt-[80px] md:pt-[124px] text-neutral-12'
       id='news'
     >
       <h2 className='bold-9 md:text-center'>Mentions in Press</h2>

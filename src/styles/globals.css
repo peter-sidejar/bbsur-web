@@ -118,6 +118,14 @@ body.no-scroll {
     --danger-9: 229 72 77;
     --danger-alpha-4: #f8596d4a;
   }
+  .pipedriveWebForms button {
+    background-color: black !important;
+
+    &:hover {
+      background-color: black !important;
+    }
+  }
+
   .bold-13 {
     @apply font-bold text-[64px] leading-[64px] font-display;
   }
