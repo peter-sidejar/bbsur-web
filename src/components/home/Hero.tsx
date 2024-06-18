@@ -87,8 +87,8 @@ const Hero = () => {
         <h1 className='relative bold-10 md:bold-11 md:text-center max-w-[655px] pt-[24px] md:pt-[70px] white-text-gradient'>
           Breaking Barriers to Substance Use Recovery
         </h1>
-        <p className='relative mt-2 max-w-[597px] md:text-center'>
-          {`In response to the urgent need for accessible opioid treatment recovery solutions, a dynamic coalition emerges, pioneering a multifaceted approach.`}
+        <p className='relative mt-2 max-w-[625px] md:text-center'>
+          {`In response to the urgent need for accessible opioid treatment recovery solutions that Break the Barriers to Substance Use Recovery, a dynamic coalition emerges to help identify new and innovative solutions.`}
         </p>
         <Button variant='solid' size={3} className='relative mt-4 md:mt-6'>
           Contact us

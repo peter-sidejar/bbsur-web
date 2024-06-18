@@ -31,7 +31,7 @@ const barriersTreatmentData = [
 
 const BarriersTreatment = () => {
   return (
-    <section className='side-wrapper pt-[80px] md:pt-[124px] text-neutral-12'>
+    <section className='side-wrapper text-neutral-12'>
       <h2 className='bold-9 md:text-center'>Barriers to Treatment</h2>
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 mt-[56px]'>
         {barriersTreatmentData.map((barrier, index) => (

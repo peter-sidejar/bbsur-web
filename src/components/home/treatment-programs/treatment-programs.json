@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Residential Treatment Programs",
+    "description": "These are often expensive and typically short - term, usually lasting no more than 30 days."
+  },
+  {
+    "id": 2,
+    "title": "Detox Centers",
+    "description": "Inpatient facilities that are designed to assist patients with the physical detoxification of drugs from their bodies. "
+  },
+  {
+    "id": 3,
+    "title": "Free-Standing MAT Clinics",
+    "description": "Offers a full array of treatment support, including medication, counseling, and co-occurring mental illness treatment."
+  },
+  {
+    "id": 4,
+    "title": "Primary Care Providers",
+    "description": "Prescribes medications to treat cravings, typically without accompanying counseling."
+  },
+  {
+    "id": 5,
+    "title": "Methadone Clinics",
+    "description": "Fixed site facilities that typically require patients to appear for daily medication dosing. "
+  }
+]
