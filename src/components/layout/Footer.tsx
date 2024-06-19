@@ -25,7 +25,7 @@ const Footer = () => {
               </div>
             </div>
             <NextLink href='/' className='relative'>
-              <LogoSvg className='w-[80px] h-[18px]' />
+              <LogoSvg className='w-auto h-[18px]' />
             </NextLink>
 
             <div className='flex items-center gap-2'>
