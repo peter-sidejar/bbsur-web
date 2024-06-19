@@ -24,14 +24,14 @@ const RecoveryPlatform = () => {
       </div>
       <div className='mt-[56px] regular-4'>
         <p>
-          {`Wilmington, NC – May 30th, 2024  – The Recovery Platform (TRP), a Substance Use Disorder (SUD) specific platform that facilitates and guides patient  compliance and engagement in Medication Assisted Treatment (MAT), and Triad Behavioral Resources, PC (TBR), a counseling and opioid use disorder treatment-focused medical practice, have partnered with the North Carolina Medical Society Foundation to establish the coalition Breaking Barriers to Substance Use Recovery (BBSUR).
+          {`Wilmington, NC – May 30th, 2024  – The Recovery Platform (TRP), a Substance Use Disorder (SUD) specific platform that facilitates and guides patient  compliance and engagement in Medication Assisted Treatment (MAT), and Triad Behavioral Resources, PC (TBR), a counseling and opioid use disorder treatment-focused medical practice, have partnered with the North Carolina Medical Society Foundation to establish the coalition Breaking Barriers to Substance Use Recovery (Breaking Barriers).
 `}
         </p>
         <p className='mt-6'>
-          {`The mission of BBSUR is to address and dismantle the numerous obstacles that prevent individuals from accessing adequate treatment for substance use disorders. The coalition aims to bring forth education and awareness, targeting the pervasive barriers such as treatment availability, work/stigma issues, transportation problems, , judicial impediments, and more. By tackling these challenges head-on, BBSUR strives to ensure that those seeking help can do so without encountering additional hindrances.`}
+          {`The mission of Breaking Barriers is to address and dismantle the numerous obstacles that prevent individuals from accessing adequate treatment for substance use disorders. The coalition aims to bring forth education and awareness, targeting the pervasive barriers such as treatment availability, work/stigma issues, transportation problems, , judicial impediments, and more. By tackling these challenges head-on, Breaking Barriers strives to ensure that those seeking help can do so without encountering additional hindrances.`}
         </p>
         <p className='mt-6'>
-          {`The current landscape of substance use recovery is fraught with barriers that have exacerbated the epidemic over recent years, with predictions indicating further growth if these issues remain unaddressed. BBSUR's efforts are crucial in reversing this trend, providing a clearer path to treatment for individuals and veterans seeking recovery.
+          {`The current landscape of substance use recovery is fraught with barriers that have exacerbated the epidemic over recent years, with predictions indicating further growth if these issues remain unaddressed. Breaking Barriers's efforts are crucial in reversing this trend, providing a clearer path to treatment for individuals and veterans seeking recovery.
 “We are committed to breaking down the barriers that impede access to essential treatment,” says Reynold Yordy, CTO of The Recovery Platform. “Through this coalition, we are fostering a supportive environment where individuals can seek the help they need without additional burdens.”
 `}
         </p>

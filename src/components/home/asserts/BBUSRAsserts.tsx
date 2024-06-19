@@ -8,7 +8,8 @@ const BBUSRAsserts = () => {
     <section className='side-wrapper text-neutral-12 my-[80px] md:my-[124px]'>
       <div className='flex justify-center'>
         <h2 className='bold-9 md:text-center max-w-[587px]'>
-          BBSUR asserts that treatment for Substance Use Recovery should:
+          Breaking Barriers asserts that treatment for Substance Use Recovery
+          should:
         </h2>
       </div>
       <div className='flex justify-center mt-[56px]'>
@@ -24,8 +25,8 @@ const BBUSRAsserts = () => {
         <div className=' w-full md:w-[684px] gap-4 p-4 flex flex-col lg:flex-row justify-between items-center rounded-[12px] border border-neutral-alpha-4'>
           <div className='text-neutral-12 w-full lg:w-[360px] flex flex-col gap-1'>
             <span className='bold-4 block'>
-              For Example, BBSUR has identified a recommended delivery model
-              called VBOT.
+              For Example, Breaking Barriers has identified a recommended
+              delivery model called VBOT.
             </span>
             <span className='regular-4'>{`(Virtual Based Opioid Treatment)`}</span>
           </div>

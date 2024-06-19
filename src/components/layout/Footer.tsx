@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
 
         <div className='pt-9 pb-[124px] flex justify-between items-center'>
-          <span className='text-neutral-9  medium-3'>{`(c) BBSUR 2024`}</span>
+          <span className='text-neutral-9  medium-3'>{`(c) Breaking Barriers 2024`}</span>
           <ButtonLink size={2} noUnderline>
             Terms of service
           </ButtonLink>

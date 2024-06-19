@@ -6,7 +6,7 @@ const presses = [
           Medical Society Foundation Launch Coalition to Break Barriers to
           Substance Use Recovery`,
     img: '/press/press-1.png',
-    description: `The mission of BBSUR is to address and dismantle the numerous obstacles that prevent individuals from accessing adequate treatment for substance use disorders. The coalition aims to bring forth education and awareness, targeting the pervasive barriers such as treatment availability, work/stigma issues, transportation problems, , judicial impediments, and more. By tackling these challenges head-on, BBSUR strives to ensure that those seeking help can do so without encountering additional hindrances.`,
+    description: `The mission of Breaking Barriers is to address and dismantle the numerous obstacles that prevent individuals from accessing adequate treatment for substance use disorders. The coalition aims to bring forth education and awareness, targeting the pervasive barriers such as treatment availability, work/stigma issues, transportation problems, , judicial impediments, and more. By tackling these challenges head-on, Breaking Barriers strives to ensure that those seeking help can do so without encountering additional hindrances.`,
     link: '/press/recovery-platform',
   },
   // {
