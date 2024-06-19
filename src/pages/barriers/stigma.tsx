@@ -1,12 +1,11 @@
-import BarrierDetail from '@/components/barriers/BarrierDetail';
 import Layout from '@/components/layout/Layout';
-import stigmaBarrier from '@/components/barriers/data/barrier-1.json';
+import StigmaDetail from '@/components/barriers/StigmaDetail';
 
 export default function StigmaPage() {
   return (
     <>
       <Layout>
-        <BarrierDetail barrier={stigmaBarrier} />
+        <StigmaDetail />
       </Layout>
     </>
   );
