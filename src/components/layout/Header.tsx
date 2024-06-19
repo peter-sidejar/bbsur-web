@@ -45,9 +45,12 @@ const Header = () => {
         </NextLink>
 
         <div className='flex items-center gap-2'>
-          <Button variant='outlined' size={2} className='relative'>
-            Contact us
-          </Button>
+          <NextLink href='/#contact-us'>
+            <Button variant='outlined' size={2} className='relative'>
+              Contact us
+            </Button>
+          </NextLink>
+
           <button
             className='h-10 w-10 flex items-center justify-center md:hidden rounded-[8px] text-neutral-12'
             onClick={toggleMobileMenu}

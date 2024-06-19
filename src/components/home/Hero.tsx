@@ -4,6 +4,7 @@ import Image from 'next/image';
 import StarCanvas from './StarCanvas';
 import { useLayoutContext } from '../layout/LayoutContextProvider';
 import clsx from 'classnames';
+import NextLink from 'next/link';
 
 const partners = [
   {
@@ -90,9 +91,11 @@ const Hero = () => {
         <p className='relative mt-2 max-w-[625px] md:text-center'>
           {`In response to the urgent need for accessible opioid treatment recovery solutions that Break the Barriers to Substance Use Recovery, a dynamic coalition emerges to help identify new and innovative solutions.`}
         </p>
-        <Button variant='solid' size={3} className='relative mt-4 md:mt-6'>
-          Contact us
-        </Button>
+        <NextLink href='/#contact-us'>
+          <Button variant='solid' size={3} className='relative mt-4 md:mt-6'>
+            Contact us
+          </Button>
+        </NextLink>
 
         <ul className='relative mt-8 md:mt-[97px] gap-4 md:gap-9 justify-start md:justify-between flex flex-wrap lg:w-[684px]'>
           {partners.map((partner, index) => (
