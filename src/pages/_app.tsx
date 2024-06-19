@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <LayoutContextProvider>
       <div className={`${interDisplay.variable}`}>
         <DefaultSeo
-          title='BBUR | Breaking Barriers To Substance Use Recovery'
+          title='Breaking Barriers To Substance Use Recovery'
           description='In response to the urgent need for accessible opioid treatment recovery solutions, a dynamic coalition emerges, pioneering a multifaceted approach.'
         />
         <Component {...pageProps} />

@@ -28,12 +28,12 @@ const Header = () => {
       >
         <div className='absolute left-0 right-0 mx-auto w-fit hidden md:block'>
           <div className='flex gap-8'>
-            <NextLink href='#the-coalition'>
+            <NextLink href='/#the-coalition'>
               <ButtonLink noUnderline size={2}>
                 The Coalition
               </ButtonLink>
             </NextLink>
-            <NextLink href='#news'>
+            <NextLink href='/#news'>
               <ButtonLink noUnderline size={2}>
                 News
               </ButtonLink>
@@ -75,10 +75,10 @@ const Header = () => {
           >
             <ul className='side-wrapper medium-7 text-neutral-12 pt-3'>
               <li>
-                <NextLink href='#the-coalition'>The Coalition</NextLink>
+                <NextLink href='/#the-coalition'>The Coalition</NextLink>
               </li>
               <li className='mt-6'>
-                <NextLink href='#news'>News</NextLink>
+                <NextLink href='/#news'>News</NextLink>
               </li>
             </ul>
           </motion.div>
