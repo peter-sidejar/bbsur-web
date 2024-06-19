@@ -1,12 +1,11 @@
-import BarrierDetail from '@/components/barriers/BarrierDetail';
 import Layout from '@/components/layout/Layout';
-import stigmaBarrier from '@/components/barriers/data/barrier-1.json';
+import JusticeDetail from '@/components/barriers/JusticeDetail';
 
 export default function JusticePage() {
   return (
     <>
       <Layout>
-        <BarrierDetail barrier={stigmaBarrier} />
+        <JusticeDetail />
       </Layout>
     </>
   );
