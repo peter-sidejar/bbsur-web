@@ -6,26 +6,32 @@ const barriersTreatmentData = [
     title: 'Stigma',
     description:
       'Negative societal attitudes and discrimination toward individuals with substance use disorders.',
+    path: '/barriers/stigma',
   },
   {
     title: 'Access',
     description: 'Increase access by eliminating obstacles',
+    path: '/barriers/access',
   },
   {
     title: 'Financial',
     description: 'Remove financial hurdles to treatment',
+    path: '/barriers/financial',
   },
   {
     title: 'Social Determinants of Health (SDOH)',
     description: 'Assist with factors that impact health',
+    path: '/barriers/sdoh',
   },
   {
     title: 'Trauma',
     description: 'Past traumatic experiences affecting recovery',
+    path: '/barriers/trauma',
   },
   {
     title: 'Justice',
     description: 'Legal system involvement hindering recovery',
+    path: '/barriers/justice',
   },
 ];
 
@@ -39,6 +45,7 @@ const BarriersTreatment = () => {
             key={index}
             title={barrier.title}
             description={barrier.description}
+            path={barrier.path}
           />
         ))}
       </div>

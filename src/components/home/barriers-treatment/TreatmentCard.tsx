@@ -2,13 +2,14 @@ import SquareLinesNoteIcon from '@/components/ui/svg/icons/SquareLinesNoteIcon';
 import React from 'react';
 import NextLink from 'next/link';
 
-const TreatmentCard: React.FC<{ title: string; description: string }> = ({
-  title,
-  description,
-}) => {
+const TreatmentCard: React.FC<{
+  title: string;
+  description: string;
+  path: string;
+}> = ({ title, description, path }) => {
   return (
     <NextLink
-      href='/barriers/stigma'
+      href={path}
       className='block p-4 border border-neutral-alpha-4 hover:border-neutral-alpha-6 card-shadow rounded-[12px]'
     >
       <SquareLinesNoteIcon className='text-black h-6 w-6' />
