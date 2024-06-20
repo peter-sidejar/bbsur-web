@@ -21,21 +21,6 @@ const BBUSRAsserts = () => {
           ))}
         </ul>
       </div>
-      <div className='flex justify-center mt-[56px]'>
-        <div className=' w-full md:w-[684px] gap-4 p-4 flex flex-col lg:flex-row justify-between items-center rounded-[12px] border border-neutral-alpha-4'>
-          <div className='text-neutral-12 w-full lg:w-[360px] flex flex-col gap-1'>
-            <span className='bold-4 block'>
-              For Example, Breaking Barriers has identified a recommended
-              delivery model called VBOT.
-            </span>
-            <span className='regular-4'>{`(Virtual Based Opioid Treatment)`}</span>
-          </div>
-
-          <Button size={2} variant='outlined' className='w-full lg:w-auto'>
-            Learn more
-          </Button>
-        </div>
-      </div>
     </section>
   );
 };
