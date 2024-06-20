@@ -2,6 +2,7 @@ import React from 'react';
 import bbusrAsserts from './bbusr-asserts.json';
 import ProgramAssert from './ProgramAssert';
 import Button from '@/components/ui/Button';
+import NextLink from 'next/link';
 
 const BBUSRAsserts = () => {
   return (
@@ -31,9 +32,15 @@ const BBUSRAsserts = () => {
             <span className='regular-4'>{`(Virtual Based Opioid Treatment)`}</span>
           </div>
 
-          <Button size={2} variant='outlined' className='w-full lg:w-auto'>
-            Learn more
-          </Button>
+          <NextLink
+            href='https://projectvbot.com/'
+            target='_blank'
+            className='w-full lg:w-auto'
+          >
+            <Button size={2} variant='outlined' className='w-full lg:w-auto'>
+              Learn more
+            </Button>
+          </NextLink>
         </div>
       </div>
     </section>
