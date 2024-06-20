@@ -8,7 +8,9 @@ const VbotAddresses = () => {
       <section className='side-wrapper text-neutral-12  bg-accent-3'>
         <div className='flex justify-center'>
           <h2 className='bold-9 md:text-center max-w-[683px]'>
-            How VBOT addresses treatment barriers:
+            The VBOT Model
+            <br/>
+            <span style="font-size:1.75rem;">(Virtual Based Opioid Treatment)</span>
           </h2>
         </div>
         <div className='flex justify-center mt-[56px]'>
@@ -21,6 +23,11 @@ const VbotAddresses = () => {
                 />
               </li>
             ))}
+          </ul>
+          <ul className='flex flex-col gap-2 w-full md:w-[684px]'>
+            <li>
+              <button href="https://projectvbot.com/" class="size-3-btn solid-btn relative mt-4 md:mt-6">Learn More</button>
+            </li>
           </ul>
         </div>
       </section>
