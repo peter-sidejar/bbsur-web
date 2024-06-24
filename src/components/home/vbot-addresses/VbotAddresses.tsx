@@ -2,6 +2,7 @@ import React from 'react';
 import vbotAddresses from './vbot-addresses.json';
 import VbotAddress from './VbotAddress';
 import Link from 'next/link';
+import Button from '@/components/ui/Button';
 
 const VbotAddresses = () => {
   return (
@@ -27,11 +28,13 @@ const VbotAddresses = () => {
               </li>
             ))}
           </ul>
-          <ul className='flex flex-col gap-2 w-full md:w-[684px]'>
-            <li>
-              <Link href='https://projectvbot.com/'>Learn More</Link>
-            </li>
-          </ul>
+        </div>
+        <div className='flex justify-center mt-[56px]'>
+          <Link href='https://projectvbot.com/' target='_blank'>
+            <Button size={2} variant='alternative' className='w-full lg:w-auto'>
+              Learn more
+            </Button>
+          </Link>
         </div>
       </section>
     </div>
