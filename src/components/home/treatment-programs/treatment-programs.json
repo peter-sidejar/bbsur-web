@@ -2,26 +2,91 @@
   {
     "id": 1,
     "title": "Residential Treatment Programs",
-    "description": "These are often expensive and typically short - term, usually lasting no more than 30 days."
+    "description": "These are often expensive and typically short - term, usually lasting no more than 30 days.",
+    "badges": [
+      {
+        "id": 1,
+        "title": "Financial",
+        "color": "accent"
+      },
+      {
+        "id": 2,
+        "title": "Access",
+        "color": "primary"
+      }
+    ]
   },
   {
     "id": 2,
     "title": "Detox Centers",
-    "description": "Inpatient facilities that are designed to assist patients with the physical detoxification of drugs from their bodies. "
+    "description": "Inpatient facilities that are designed to assist patients with the physical detoxification of drugs from their bodies. ",
+    "badges": [
+      {
+        "id": 1,
+        "title": "Access",
+        "color": "primary"
+      }
+    ]
   },
   {
     "id": 3,
     "title": "Free-Standing MAT Clinics",
-    "description": "Offers a full array of treatment support, including medication, counseling, and co-occurring mental illness treatment."
+    "description": "Offers a full array of treatment support, including medication, counseling, and co-occurring mental illness treatment.",
+    "badges": [
+      {
+        "id": 1,
+        "title": "Stigma",
+        "color": "danger"
+      },
+      {
+        "id": 2,
+        "title": "Access",
+        "color": "primary"
+      },
+      {
+        "id": 3,
+        "title": "SDOH",
+        "color": "warning"
+      }
+    ]
   },
   {
     "id": 4,
     "title": "Primary Care Providers",
-    "description": "Prescribes medications to treat cravings, typically without accompanying counseling."
+    "description": "Prescribes medications to treat cravings, typically without accompanying counseling.",
+    "badges": [
+      {
+        "id": 1,
+        "title": "Stigma",
+        "color": "danger"
+      },
+      {
+        "id": 2,
+        "title": "Access",
+        "color": "primary"
+      },
+      {
+        "id": 3,
+        "title": "SDOH",
+        "color": "warning"
+      }
+    ]
   },
   {
     "id": 5,
     "title": "Methadone Clinics",
-    "description": "Fixed site facilities that typically require patients to appear for daily medication dosing. "
+    "description": "Fixed site facilities that typically require patients to appear for daily medication dosing. ",
+    "badges": [
+      {
+        "id": 1,
+        "title": "Stigma",
+        "color": "danger"
+      },
+      {
+        "id": 2,
+        "title": "Access",
+        "color": "primary"
+      }
+    ]
   }
 ]

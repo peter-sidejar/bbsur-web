@@ -1,6 +1,6 @@
 import React from 'react';
 import treatmentPrograms from './treatment-programs.json';
-import TreatmentProgram from './TreatmentProgram';
+import TreatmentProgram, { ProgramBadgeType } from './TreatmentProgram';
 const TreatmentPrograms = () => {
   return (
     <section className='side-wrapper text-neutral-12 mt-[80px] md:mt-[124px]'>
@@ -16,6 +16,7 @@ const TreatmentPrograms = () => {
               <TreatmentProgram
                 title={program.title}
                 description={program.description}
+                badges={program.badges as ProgramBadgeType[]}
               />
             </li>
           ))}

@@ -55,12 +55,19 @@ body.no-scroll {
     --neutral-9: #8b8d98;
     --warning-alpha-3: #ffbf012f;
     --warning-alpha-12: #341500dd;
+    --warning-alpha-11: #783200cf;
     --support-alternative-shadow-dark: #00000000;
     --support-alternative-shadow-light: #0000000f;
     --transparent-panels-10: #ffffff74;
     --danger-11: 198 42 47;
     --danger-9: 229 72 77;
     --danger-alpha-4: #ff00001a;
+    --accent-alpha-11: #0038dcd8;
+    --accent-alpha-3: #005aff14;
+    --primary-alpha-11: #2b019dcc;
+    --primary-alpha-3: #3705ff0f;
+    --danger-alpha-11: #bb0007d5;
+    --danger-alpha-3: #ff010110;
   }
 
   .dark {
@@ -81,14 +88,21 @@ body.no-scroll {
     --neutral-1: #131315;
     --neutral-10: #737a80;
     --neutral-9: #646972;
-    --warning-alpha-3: #ff66001b;
+    --warning-alpha-3: #ffbf012f;
     --warning-alpha-12: #ffe7be;
+    --warning-alpha-11: #783200cf;
     --support-alternative-shadow-light: #00000000;
     --support-alternative-shadow-dark: #000000;
     --transparent-panels-10: #1313157f;
     --danger-11: 255 133 137;
     --danger-9: 229 72 77;
     --danger-alpha-4: #ff213e35;
+    --accent-alpha-11: #0038dcd8;
+    --accent-alpha-3: #005aff14;
+    --primary-alpha-11: #2b019dcc;
+    --primary-alpha-3: #3705ff0f;
+    --danger-alpha-11: #bb0007d5;
+    --danger-alpha-3: #ff010110;
   }
 
   .night {
@@ -109,14 +123,21 @@ body.no-scroll {
     --neutral-1: #000000;
     --neutral-10: #656565;
     --neutral-9: #575757;
-    --warning-alpha-3: #fda93a30;
+    --warning-alpha-3: #ffbf012f;
     --warning-alpha-12: #ffe7be;
+    --warning-alpha-11: #783200cf;
     --support-alternative-shadow-light: #00000000;
     --support-alternative-shadow-dark: #000000;
     --transparent-panels-10: #0000007f;
     --danger-11: 255 133 137;
     --danger-9: 229 72 77;
     --danger-alpha-4: #f8596d4a;
+    --accent-alpha-11: #0038dcd8;
+    --accent-alpha-3: #005aff14;
+    --primary-alpha-11: #2b019dcc;
+    --primary-alpha-3: #3705ff0f;
+    --danger-alpha-11: #bb0007d5;
+    --danger-alpha-3: #ff010110;
   }
   .pipedriveWebForms button {
     background-color: black !important;
@@ -295,7 +316,9 @@ body.no-scroll {
   .outline-btn {
     @apply text-neutral-12 border border-neutral-alpha-6 hover:border-neutral-alpha-3 bg-transparent disabled:bg-panel-3 hover:bg-neutral-alpha-3;
   }
-
+  .size-1-badge {
+    @apply h-[20px] flex justify-center items-center px-[6px] rounded-full medium-2;
+  }
   .size-2-badge {
     @apply h-[24px] flex justify-center items-center px-2 rounded-[9999px] medium-2;
   }
@@ -303,8 +326,16 @@ body.no-scroll {
   .neutral-badge {
     @apply bg-neutral-3 text-neutral-alpha-12;
   }
-
   .warning-badge {
-    @apply bg-warning-alpha-3 text-warning-alpha-12;
+    @apply bg-warning-alpha-3 text-warning-alpha-11;
+  }
+  .primary-badge {
+    @apply bg-primary-alpha-3 text-primary-alpha-11;
+  }
+  .accent-badge {
+    @apply bg-accent-alpha-3 text-accent-alpha-11;
+  }
+  .danger-badge {
+    @apply bg-danger-alpha-3 text-danger-alpha-11;
   }
 }
