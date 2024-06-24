@@ -43,6 +43,12 @@ const partners = [
     height: 38,
     alt: 'SelectLabratory',
   },
+  {
+    src: '/partners/white/nexalin.svg',
+    width: 95,
+    height: 26,
+    alt: 'Nexalin',
+  },
 ];
 
 const Hero = () => {
@@ -97,7 +103,7 @@ const Hero = () => {
           </Button>
         </NextLink>
 
-        <ul className='relative mt-8 md:mt-[97px] gap-4 md:gap-9 justify-start md:justify-between flex flex-wrap lg:w-[684px]'>
+        <ul className='relative mt-8 md:mt-[97px] gap-4 md:gap-9 justify-start md:justify-between flex flex-wrap lg:w-[846px]'>
           {partners.map((partner, index) => (
             <Image
               className='shrink-0'
