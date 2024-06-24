@@ -2,31 +2,31 @@
   {
     "id": 1,
     "title": "STIGMA",
-    "description": "VBOT services are delivered virtually, offering privacy and anonymity to individuals seeking treatment."
+    "description": "Services are delivered virtually, offering privacy and anonymity to individuals seeking treatment."
   },
   {
     "id": 2,
     "title": "ACCESS",
-    "description": "VBOT’s software allows patients to schedule their appointments with their care team at their convenience."
+    "description": "Software that allows patients to schedule their appointments with their care team at their convenience."
   },
   {
     "id": 3,
     "title": "FINANCIAL",
-    "description": "VBOT files insurance on behalf of their patients, and for those without coverage, hardship grants are offered."
+    "description": "Manage filing insurance on behalf of their patients, and for those without coverage, hardship grants are offered."
   },
   {
     "id": 4,
     "title": "SOCIAL DETERMINANTS OF HEALTH (SDOH)",
-    "description": "VBOT’s software is designed to enable patients’ care team members to create referrals to relevant social service networks."
+    "description": "Software that designed to enable patients’ care team members to create referrals to relevant social service networks."
   },
   {
     "id": 5,
     "title": "TRAUMA",
-    "description": "VBOT’s care team members provide patients access to healthcare professionals trained to evaluate behavioral health conditions resulting from traumatic events."
+    "description": "Care team members provide patients access to healthcare professionals trained to evaluate behavioral health conditions resulting from traumatic events."
   },
   {
     "id": 6,
     "title": "JUSTICE",
-    "description": "VBOT’s technology facilitates virtual treatment for individuals both during incarceration and upon release. VBOT care teams also participate in treating individuals in early release and jail diversion programs."
+    "description": "Technology to facilitate virtual treatment for individuals both during incarceration and upon release. VBOT care teams also participate in treating individuals in early release and jail diversion programs."
   }
 ]
