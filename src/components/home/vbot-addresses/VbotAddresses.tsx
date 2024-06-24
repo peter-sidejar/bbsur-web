@@ -31,7 +31,7 @@ const VbotAddresses = () => {
         </div>
         <div className='flex justify-center mt-[56px]'>
           <Link href='https://projectvbot.com/' target='_blank'>
-            <Button size={2} variant='alternative' className='w-full lg:w-auto'>
+            <Button size={2} variant='solid' className='w-full lg:w-auto'>
               Learn more
             </Button>
           </Link>
