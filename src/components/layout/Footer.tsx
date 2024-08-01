@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className='bg-background-3'>
       <div className='side-wrapper'>
         <div className='border-b border-neutral-alpha-4'>
-          <div className='py-9 flex items-center justify-between relative '>
+          <div className='py-9 flex items-start justify-between relative '>
             <div className='absolute left-0 right-0 mx-auto w-fit hidden md:block'>
               <div className='flex gap-8'>
                 <NextLink href='/#the-coalition'>
