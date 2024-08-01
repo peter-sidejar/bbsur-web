@@ -28,10 +28,16 @@ const Footer = () => {
               <LogoSvg className='w-auto h-[18px]' />
             </NextLink>
 
-            <div className='flex items-center gap-2'>
-              <Button variant='outlined' size={2} className='relative'>
+            <div className='flex flex-col gap-2 items-end'>
+              <Button variant='outlined' size={2} className='relative w-fit'>
                 Contact us
               </Button>
+              <address className='regular-2 text-right text-neutral-alpha-11'>
+                <span>12 North 5th Avenue</span>
+                <span className='block Wilmington, NC 28401'>
+                  Wilmington, NC 28401
+                </span>
+              </address>
             </div>
           </div>
           <div className='flex flex-col gap-5 pb-9 md:hidden'>
